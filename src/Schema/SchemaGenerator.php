@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @file
+ * Provides functionality for the Digital module.
+ *
+ * @copyright Copyright (C) 2026 Adrian Zalewski
+ * @license GPL-2.0-or-later
+ */
+
 namespace Drupal\digital\Schema;
 
 
