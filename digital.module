@@ -1,0 +1,30 @@
+<?php
+
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_theme().
+ */
+function digital_theme() {
+  return [
+    'digital_block' => [
+      'variables' => [
+        'custom_data' => [],
+        'custom_string' => '',
+      ],
+    ],
+    'digital_title_block' => [
+      'variables' => [
+        'digital_description_string' => '',
+        'custom_string' => '',
+      ],
+    ],
+    'digital_copyright_block' => [
+      'variables' => [
+        'sitename_string' => '',
+        'date_string' => '',
+      ],
+    ],
+  ];
+}
+

@@ -1,0 +1,13 @@
+digital.my_page:
+  path: '/mypage/page'
+  defaults:
+    _controller: '\Drupal\digital\Controller\DigitalController::myPage'
+    _title: 'My first page in D11'
+  requirements:
+    _permission: 'access content'
+digital.catalog:
+  path: '/ajax/shop-products'
+  defaults:
+    _controller: '\Drupal\digital\Controller\CatalogController::load'
+  requirements:
+    _permission: 'access content'

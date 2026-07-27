@@ -1,0 +1,21 @@
+
+
+
+/**
+ *	Price Styles
+ **/
+.product-price {
+	}
+.product-price-compare {
+	text-decoration: line-through;	
+	}
+
+
+.card .product-price {
+        }
+.card .product-price-compare {
+	text-decoration: line-through;
+	font-size: 12px;
+	text-align: right;
+	opacity: .5;
+	}

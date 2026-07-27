@@ -1,0 +1,24 @@
+# Drupal
+/core
+/vendor
+/sites/*/files
+/sites/*/private
+/sites/*/settings.php
+/sites/*/services.yml
+
+# Composer
+composer.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea
+.vscode
+
+# Node
+node_modules
+
+# Sass
+.sass-cache

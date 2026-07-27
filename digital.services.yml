@@ -1,0 +1,20 @@
+services:
+  digital.product_collection:
+    class: Drupal\digital\Product\ProductCollection
+  digital.schema_generator:
+    class: Drupal\digital\Schema\SchemaGenerator
+    arguments:
+      - '@current_route_match'
+      - '@path.current'
+      - '@path_alias.manager'
+      - '@entity_type.manager'
+      - '@file_url_generator'
+      - '@theme.manager'
+      - '@request_stack'
+      - '@digital.product_collection'
+      - '@digital.collection_context'
+  digital.collection_context:
+    class: Drupal\digital\Product\CollectionContext
+    arguments:
+      - '@path.current'
+      - '@path_alias.manager'

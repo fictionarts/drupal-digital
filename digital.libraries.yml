@@ -1,0 +1,6 @@
+lazy_catalog:
+  js:
+    js/lazy_catalog.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
